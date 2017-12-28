@@ -1,0 +1,10 @@
+.clearfix{zoom:1;}
+.clearfix:after{width: 0;height: 0;content: '';display: block;clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+.pr{position: relative;}
+body{color: #999;font-size: 12px;font-family: '微软雅黑';}
+a{text-decoration: none;color: #999;}
+/*左移*/
+.sonmove{position: relative;}
+.switchlist{position: relative;}
