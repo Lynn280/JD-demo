@@ -1,4 +1,4 @@
-$(function(){
+$(window).load(function(){
 //倒计时
 	function timeBackward($hour,$min,$sec){
 		var hour=parseInt($hour.val());
@@ -117,6 +117,7 @@ $(function(){
 		$(this).find('.switchbefore').hide();
 	})
 //图片轮播
+	$('.bannerImgBox').css('background','none');
 	$('.bannerBox').each(function(){
 		var $box=$(this);
 		var $imgs=$box.find('.bannerImgBox').children();

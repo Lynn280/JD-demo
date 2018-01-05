@@ -8,3 +8,5 @@ a{text-decoration: none;color: #999;}
 /*左移*/
 .sonmove{position: relative;}
 .switchlist{position: relative;}
+/*图片加载*/
+.bannerImgBox{background:url(../img/loading.gif) no-repeat center center;}
