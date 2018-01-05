@@ -9,4 +9,4 @@ a{text-decoration: none;color: #999;}
 .sonmove{position: relative;}
 .switchlist{position: relative;}
 /*图片加载*/
-.bannerImgBox{background:url(../img/loading.gif) no-repeat center center;}
+.bannerImgBox{background:#fff url(../img/loading.gif) no-repeat center center;}
