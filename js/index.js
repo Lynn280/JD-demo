@@ -42,11 +42,14 @@ $(function(){
 		$(this).siblings().trigger('mouseout');
 	})
 	var $myphone=$('<p class="myphone">林琳：1511-8830-280</p>');
+	var $wechatS=$('.contact-me-s');
 	$('.contact-me').mouseenter(function(){
-		$(this).width(287).height(260).append($myphone).find('img').attr('src','img/my-wechat-b.png');
+		$(this).width(287).height(260).append($myphone);
+		$wechatS.hide();
 	}).mouseleave(function(){
-		$(this).width(66).height(57).find('img').attr('src','img/my-wechat-s.png');
+		$(this).width(66).height(57);
 		$myphone.detach();
+		$wechatS.show();
 	})
 	//搜索框文字
 	var searchTips=new Array('暗影游戏本','格兰仕空调','魅族手机','闪迪U盘','抽奖赢空调','沙发大降价','海尔冰箱','笔记本硬盘','苹果笔记本','格力变频空调');
