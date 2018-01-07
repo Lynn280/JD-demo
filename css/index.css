@@ -378,7 +378,7 @@ body{background: #f6f6f6;}
 .phone-me,.to-top{background: #6e6568;width: 26px;height: 32px;position: absolute;right: 6px;padding: 6px;cursor: pointer;}
 .phone-me{bottom: 45px;border-bottom: 1px solid #333;}
 .to-top{bottom: 0;border-top: 1px solid #999;}
-.phone-num{display: block;position: absolute;top:0;left: 40px;padding: 6px;width: 124px;height: 32px;line-height:32px;z-index: 10;background:#6e6568;}
+.phone-num{display: block;position: absolute;top:0;left: 40px;padding: 6px;width: 144px;height: 32px;line-height:32px;z-index: 10;background:#6e6568;}
 .left-bar{position: fixed;top: 80px;left: 10px;visibility:hidden;z-index: 100;}
 .left-bar-list{position: absolute;top: -1px;text-align: center;}
 .left-bar-item,.left-bar-top{display:block;width:24px;padding: 5px;border-top: 1px solid #f6f6f6;color: #fff;background:#918888;}

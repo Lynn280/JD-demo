@@ -41,7 +41,7 @@ $(function(){
 	}).mouseout(function(){
 		$(this).siblings().trigger('mouseout');
 	})
-	var $myphone=$('<p class="myphone">林琳：1511-8830-280</p>');
+	var $myphone=$('<p class="myphone">Lynn：1511-8830-280</p>');
 	var $wechatS=$('.contact-me-s');
 	$('.contact-me').mouseenter(function(){
 		$(this).width(287).height(260).append($myphone);
